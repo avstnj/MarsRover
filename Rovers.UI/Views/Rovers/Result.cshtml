@@ -1,0 +1,14 @@
+﻿@model Rovers.Model.Data.RoversModel;
+@{
+    ViewData["Title"] = "Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    if (Model != null)
+    {
+        <Label>X: @Model.X</Label>
+        <Label>Y: @Model.Y</Label>
+        <Label>YÖN: @Model.WAY</Label>
+    }
+}

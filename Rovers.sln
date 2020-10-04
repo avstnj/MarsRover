@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rovers.Core", "Rovers.Data\Rovers.Core.csproj", "{E8249683-BA11-4734-90C7-4966A27F703F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rovers.Model", "Rovers.Model\Rovers.Model.csproj", "{77BED950-AAC5-4ADB-89AF-B688E11B4DF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rovers.Dal", "Rovers.Dal\Rovers.Dal.csproj", "{C6C6AC6E-CB10-4247-9082-FEE27AB3DB03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rovers.Entity", "Rovers.Entity\Rovers.Entity.csproj", "{073F0441-5EFC-4863-AE7A-76C5DD39FC32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rovers.WebService", "Rovers.WebService\Rovers.WebService.csproj", "{D6C176BF-8E32-45B7-AA05-5438F3999D2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revors.Bus", "Revors.Bus\Revors.Bus.csproj", "{71825A21-CF87-4647-A07E-902A8DD09976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rovers.UI", "Rovers.UI\Rovers.UI.csproj", "{7D5AE9E8-7F06-416E-969F-079E2B262955}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8249683-BA11-4734-90C7-4966A27F703F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8249683-BA11-4734-90C7-4966A27F703F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8249683-BA11-4734-90C7-4966A27F703F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8249683-BA11-4734-90C7-4966A27F703F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77BED950-AAC5-4ADB-89AF-B688E11B4DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BED950-AAC5-4ADB-89AF-B688E11B4DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BED950-AAC5-4ADB-89AF-B688E11B4DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BED950-AAC5-4ADB-89AF-B688E11B4DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C6AC6E-CB10-4247-9082-FEE27AB3DB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C6AC6E-CB10-4247-9082-FEE27AB3DB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C6AC6E-CB10-4247-9082-FEE27AB3DB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C6AC6E-CB10-4247-9082-FEE27AB3DB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073F0441-5EFC-4863-AE7A-76C5DD39FC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073F0441-5EFC-4863-AE7A-76C5DD39FC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073F0441-5EFC-4863-AE7A-76C5DD39FC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073F0441-5EFC-4863-AE7A-76C5DD39FC32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C176BF-8E32-45B7-AA05-5438F3999D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C176BF-8E32-45B7-AA05-5438F3999D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C176BF-8E32-45B7-AA05-5438F3999D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C176BF-8E32-45B7-AA05-5438F3999D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71825A21-CF87-4647-A07E-902A8DD09976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71825A21-CF87-4647-A07E-902A8DD09976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71825A21-CF87-4647-A07E-902A8DD09976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71825A21-CF87-4647-A07E-902A8DD09976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5AE9E8-7F06-416E-969F-079E2B262955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5AE9E8-7F06-416E-969F-079E2B262955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5AE9E8-7F06-416E-969F-079E2B262955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5AE9E8-7F06-416E-969F-079E2B262955}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C14ED67D-3CA0-4B1C-83E7-2469855B1614}
+	EndGlobalSection
+EndGlobal
