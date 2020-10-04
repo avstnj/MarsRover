@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Rovers.Data.Abstract
 {
-    public interface IRepository<TEntity> where TEntity:class,IEntity,new()
+    public interface IRepository<TEntity> where TEntity : class, IEntity, new()
     {
         bool Add(TEntity entity);
         bool Update(TEntity entity);

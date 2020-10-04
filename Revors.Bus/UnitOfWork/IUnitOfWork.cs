@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Revors.Bus.UnitOfWork
 {
-    public interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork
     {
         IRevorsBus RevorsBus { get;}
         bool SaveChanges();

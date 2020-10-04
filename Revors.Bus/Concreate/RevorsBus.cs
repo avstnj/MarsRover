@@ -22,7 +22,7 @@ namespace Revors.Bus.Concreate
         }
         public bool GetActiveRecordRovers()
         {
-            RoversEntity result = (RoversEntity)roversDal.Get(x=>x.IS_ACTIVE==true).Result;
+            RoversEntity result = roversDal.Get(x=>x.IS_ACTIVE==true).Result;
             if(result != null)
                 return false; 
             else 
@@ -31,7 +31,7 @@ namespace Revors.Bus.Concreate
 
         public bool UpdateRoversStatus()
         {
-            RoversEntity result = (RoversEntity)roversDal.Get(x => x.IS_ACTIVE == true).Result;
+            RoversEntity result = roversDal.Get(x => x.IS_ACTIVE == true).Result;
             result.IS_ACTIVE = false;
             return roversDal.Update(result);
         }

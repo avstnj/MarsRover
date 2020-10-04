@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Rovers.Data.Concreat
 {
-    public class Repository<TEntity> :IRepository<TEntity> where TEntity:class,IEntity,new()
+    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class, IEntity, new()
     {
         protected readonly DbContext context;
         public Repository(DbContext _context)

@@ -17,18 +17,6 @@ namespace Revors.Bus.UnitOfWork
         private IRevorsBus roversBus;
         public IRevorsBus RevorsBus => roversBus ?? (roversBus = new RevorsBus(new RoversDal(context)));
         #region IDisposable Support
-        private bool disposedValue = false;
-
-        protected virtual void Dispose(bool disposing)
-        {
-            if (!disposedValue)
-                disposedValue = true;
-        }
-
-        public void Dispose()
-        {
-            Dispose(true);
-        }
 
         public bool SaveChanges()
         {
