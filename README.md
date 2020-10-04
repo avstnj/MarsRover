@@ -35,7 +35,6 @@ Expected Output:
 5 1 E
 
 # Proje Açıklaması
-Başlarken:
 -->Rovers.Dal katmanında RoversContext classında bulunan DB bağlantı cümleciğini kendi local DB bağlantımızı yazacak şekilde güncelleyelim.
 -->Rovers.Dal katmanı içerisinde Package Manager Console üzerinden Local DB'mizde database'imizi oluşturacak update-database komutunu çalıştıralım.
 -->Rovers.WebService ve Rovers.UI projeleri ayrı ayrı çalıştırılmalı ve Rovers.UI arayüzü ile devam edebilir.
